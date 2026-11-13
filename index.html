@@ -1,2 +1,401 @@
-   <h1>Hessameddin Amirhosseini</h1>
-   <p>PhD Candidate, Mechatronic Systems Engineering, Simon Fraser University</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hessameddin Amirhosseini | XR &amp; Digital Twin Researcher, Simon Fraser University</title>
+<meta name="description" content="Hessameddin Amirhosseini is a PhD candidate in Mechatronic Systems Engineering at Simon Fraser University, developing Digital Twin and Extended Reality (XR) technologies for operator training in smart manufacturing.">
+<meta name="author" content="Hessameddin Amirhosseini">
+<meta name="keywords" content="Hessameddin Amirhosseini, Digital Twin, Extended Reality, XR, Virtual Reality, operator training, smart manufacturing, Simon Fraser University, mechatronics, human-robot interaction">
+<link rel="canonical" href="https://hessameddin-amirhosseini.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Hessameddin Amirhosseini | XR & Digital Twin Researcher">
+<meta property="og:description" content="PhD candidate at Simon Fraser University developing Digital Twin and XR technologies for operator training in smart manufacturing.">
+<meta property="og:url" content="https://hessameddin-amirhosseini.github.io/">
+<meta property="og:image" content="https://hessameddin-amirhosseini.github.io/profile.jpg">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Hessameddin Amirhosseini",
+  "jobTitle": "PhD Candidate and Graduate Research Assistant",
+  "affiliation": {"@type": "CollegeOrUniversity", "name": "Simon Fraser University"},
+  "url": "https://hessameddin-amirhosseini.github.io/",
+  "image": "https://hessameddin-amirhosseini.github.io/profile.jpg",
+  "sameAs": ["https://www.linkedin.com/in/h-amirhosseini/"],
+  "knowsAbout": ["Digital Twin", "Extended Reality", "Virtual Reality", "Operator Training", "Smart Manufacturing", "Human-Robot Interaction"]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f7f8fa;
+    --surface: #ffffff;
+    --ink: #14171f;
+    --muted: #5b6372;
+    --line: #e4e7ec;
+    --accent: #c8102e;      /* SFU red */
+    --accent-2: #1f6feb;
+    --dark: #0f1420;
+    --radius: 14px;
+    --max: 1120px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body { font-family: "Inter", system-ui, sans-serif; background: var(--bg); color: var(--ink); line-height: 1.6; }
+  a { color: var(--accent-2); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  h1, h2, h3 { font-family: "Space Grotesk", "Inter", sans-serif; line-height: 1.2; }
+  .wrap { max-width: var(--max); margin: 0 auto; padding: 0 24px; }
+
+  /* Nav */
+  header.nav { position: sticky; top: 0; z-index: 10; background: rgba(255,255,255,0.9); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
+  header.nav .wrap { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+  .brand { font-family: "Space Grotesk", sans-serif; font-weight: 700; color: var(--ink); font-size: 1.05rem; }
+  .brand span { color: var(--accent); }
+  nav a { color: var(--muted); font-weight: 500; margin-left: 22px; font-size: 0.95rem; }
+  nav a:hover { color: var(--ink); text-decoration: none; }
+
+  /* Hero */
+  .hero { background: var(--dark); color: #fff; padding: 84px 0 72px; }
+  .hero .wrap { display: grid; grid-template-columns: 1fr 260px; gap: 48px; align-items: center; }
+  .eyebrow { color: #ff8a9a; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; font-size: 0.8rem; margin-bottom: 14px; }
+  .hero h1 { font-size: clamp(2.2rem, 5vw, 3.4rem); margin-bottom: 16px; }
+  .hero p.lead { color: #c9cfdb; font-size: 1.12rem; max-width: 640px; margin-bottom: 28px; }
+  .btns { display: flex; flex-wrap: wrap; gap: 12px; }
+  .btn { display: inline-block; padding: 11px 20px; border-radius: 999px; font-weight: 600; font-size: 0.95rem; }
+  .btn.primary { background: var(--accent); color: #fff; }
+  .btn.ghost { border: 1px solid #3a4256; color: #fff; }
+  .btn:hover { text-decoration: none; opacity: 0.9; }
+  .avatar { width: 260px; height: 260px; border-radius: 50%; overflow: hidden; border: 4px solid #2a3142; background: linear-gradient(135deg, var(--accent), #6a0f1f); display: grid; place-items: center; }
+  .avatar img { width: 100%; height: 100%; object-fit: cover; }
+  .avatar .initials { font-family: "Space Grotesk", sans-serif; font-size: 4.5rem; font-weight: 700; color: #fff; }
+
+  /* Sections */
+  section { padding: 76px 0; }
+  section.alt { background: var(--surface); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .sec-head { margin-bottom: 36px; }
+  .sec-head h2 { font-size: 2rem; margin-bottom: 8px; }
+  .sec-head p { color: var(--muted); max-width: 680px; }
+
+  .grid { display: grid; gap: 22px; }
+  .g2 { grid-template-columns: repeat(2, 1fr); }
+  .g3 { grid-template-columns: repeat(3, 1fr); }
+  .g4 { grid-template-columns: repeat(4, 1fr); }
+
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; display: flex; flex-direction: column; }
+  section.alt .card { background: var(--bg); }
+  .card .media { aspect-ratio: 16 / 9; background: linear-gradient(135deg, #1b2335, #2e3a55); display: grid; place-items: center; color: #9fb0d0; font-family: "Space Grotesk", sans-serif; font-size: 1.05rem; letter-spacing: 0.04em; }
+  .card .media img { width: 100%; height: 100%; object-fit: cover; }
+  .card .body { padding: 20px 22px 22px; flex: 1; display: flex; flex-direction: column; }
+  .tag { display: inline-block; font-size: 0.75rem; font-weight: 600; color: var(--accent); background: #fdebee; padding: 3px 10px; border-radius: 999px; margin-bottom: 10px; align-self: flex-start; }
+  .card h3 { font-size: 1.12rem; margin-bottom: 8px; }
+  .card p { color: var(--muted); font-size: 0.95rem; }
+  .card .meta { margin-top: auto; padding-top: 12px; font-size: 0.85rem; color: var(--muted); }
+
+  /* Recognition */
+  .award { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 10px; padding: 18px 20px; }
+  .award .yr { font-weight: 700; color: var(--accent); font-size: 0.9rem; }
+  .award h3 { font-size: 1rem; margin: 4px 0; font-family: "Inter", sans-serif; font-weight: 600; }
+  .award p { color: var(--muted); font-size: 0.88rem; }
+
+  /* How my work connects */
+  .flow { counter-reset: step; }
+  .step { position: relative; padding: 24px 22px; background: var(--bg); border: 1px solid var(--line); border-radius: var(--radius); }
+  .step::before { counter-increment: step; content: "0" counter(step); font-family: "Space Grotesk", sans-serif; font-weight: 700; color: var(--accent); font-size: 0.9rem; }
+  .step h3 { font-size: 1.3rem; margin: 6px 0 8px; }
+  .step p { color: var(--muted); font-size: 0.93rem; }
+
+  /* Resume */
+  .timeline { border-left: 2px solid var(--line); padding-left: 24px; }
+  .t-item { position: relative; margin-bottom: 26px; }
+  .t-item::before { content: ""; position: absolute; left: -31px; top: 6px; width: 12px; height: 12px; border-radius: 50%; background: var(--accent); }
+  .t-item .when { font-size: 0.85rem; color: var(--muted); font-weight: 500; }
+  .t-item h3 { font-size: 1.05rem; font-family: "Inter", sans-serif; font-weight: 600; }
+  .t-item .org { color: var(--ink); font-size: 0.95rem; }
+  .t-item p { color: var(--muted); font-size: 0.92rem; margin-top: 4px; }
+  .resume-cols { display: grid; grid-template-columns: 1.3fr 1fr; gap: 48px; }
+  .resume-cols h3.col { font-size: 1.25rem; margin-bottom: 20px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip { background: var(--surface); border: 1px solid var(--line); padding: 5px 12px; border-radius: 999px; font-size: 0.85rem; }
+  .pub { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; margin-bottom: 12px; font-size: 0.92rem; }
+  .pub em { color: var(--muted); }
+
+  /* Contact */
+  .contact { background: var(--dark); color: #fff; text-align: center; }
+  .contact h2 { font-size: 2rem; margin-bottom: 10px; }
+  .contact p { color: #c9cfdb; margin-bottom: 26px; }
+  .contact .btns { justify-content: center; }
+
+  footer { background: var(--dark); color: #8a93a6; font-size: 0.85rem; text-align: center; padding: 22px 0 30px; border-top: 1px solid #222a3a; }
+
+  @media (max-width: 900px) {
+    .hero .wrap { grid-template-columns: 1fr; text-align: left; }
+    .avatar { width: 180px; height: 180px; order: -1; }
+    .g3, .g4 { grid-template-columns: repeat(2, 1fr); }
+    .resume-cols { grid-template-columns: 1fr; }
+    nav a { margin-left: 14px; }
+  }
+  @media (max-width: 600px) {
+    .g2, .g3, .g4 { grid-template-columns: 1fr; }
+    nav { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#home">Hessameddin <span>Amirhosseini</span></a>
+    <nav>
+      <a href="#highlights">Highlights</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">XR &amp; Digital Twin Developer</div>
+      <h1>Hessameddin Amirhosseini</h1>
+      <p class="lead">PhD Candidate in Mechatronic Systems Engineering and Graduate Research Assistant at Simon Fraser University. I integrate Digital Twin and Extended Reality technologies into a unified operator training framework that supports both training and learning evaluation in smart manufacturing.</p>
+      <div class="btns">
+        <a class="btn primary" href="#portfolio">View my work</a>
+        <a class="btn ghost" href="cv.pdf" target="_blank" rel="noopener">Download CV</a>
+        <a class="btn ghost" href="https://www.linkedin.com/in/h-amirhosseini/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+    <div class="avatar">
+      <img src="profile.jpg" alt="Hessameddin Amirhosseini" onerror="this.remove(); document.getElementById('initials').style.display='block';">
+      <span class="initials" id="initials" style="display:none">HA</span>
+    </div>
+  </div>
+</section>
+
+<!-- HIGHLIGHTS -->
+<section id="highlights">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Highlights</h2>
+      <p>Recent research, talks, and teaching at the Digital Twin and IIoT Lab, Simon Fraser University.</p>
+    </div>
+    <div class="grid g2">
+      <article class="card">
+        <div class="media">VR + DIGITAL TWIN</div>
+        <div class="body">
+          <span class="tag">Publication · CSME 2026</span>
+          <h3>A Human-Centered UI/UX Design for Operator Training in a Manufacturing System via an Immersive Environment</h3>
+          <p>A VR training environment built on Standard Operating Procedures and integrated with a digital twin of the SIF-400 smart manufacturing station, including its sensors, actuators, kinematics, and PLC I/O signals. An audiovisual guidance system teaches component function, and usability was evaluated with the System Usability Scale.</p>
+          <div class="meta">Proceedings of the Canadian Society for Mechanical Engineering. Presented at the CSME-CFDSC-CSR 2026 Congress, UBC, Vancouver.</div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="media">IMMERSIVE ENGINEERING</div>
+        <div class="body">
+          <span class="tag">Lab</span>
+          <h3>Immersive Engineering with Siemens NX X and the Sony XR Headset</h3>
+          <p>Set up and ran Siemens Designcenter and Immersive Engineering (NX X) on the Sony-Siemens XR headset in the Digital Twin and IIoT Lab, a facility that blends digital and physical design review.</p>
+          <div class="meta">Digital Twin and IIoT Lab, SFU</div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="media">INVITED TALKS</div>
+        <div class="body">
+          <span class="tag">Talks</span>
+          <h3>Digital Twin-Based Technology for Operator Training in Smart Manufacturing Systems</h3>
+          <p>Presented my PhD research, which combines Siemens Tecnomatix Process Simulate with a VR headset for operator training, to industry leaders at the Siemens Smart Manufacturing Summit and at SFU Mechatronics Day.</p>
+          <div class="meta">Simon Fraser University</div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="media">TEACHING</div>
+        <div class="body">
+          <span class="tag">Teaching</span>
+          <h3>Teaching Assistant, Smart Factory and Industrial IoT</h3>
+          <p>Graduate teaching in MSE 923 Smart Factory I, MSE 924 Smart Factory II, and MSE 910 Industrial Internet of Things, covering Siemens TIA Portal, Plant Simulation, and connected manufacturing systems.</p>
+          <div class="meta">School of Mechatronic Systems Engineering, SFU · 2025 - 2026</div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- RECOGNITION -->
+<section class="alt" id="recognition">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Recognition</h2>
+    </div>
+    <div class="grid g3">
+      <div class="award"><div class="yr">2025</div><h3>Graduate Fellowship Award</h3><p>Simon Fraser University</p></div>
+      <div class="award"><div class="yr">2024</div><h3>Full Scholarship Award</h3><p>Simon Fraser University</p></div>
+      <div class="award"><div class="yr">2017</div><h3>Patent: Bio-inspired Walking MicroRobot</h3><p>Iran Patent IR91858</p></div>
+      <div class="award"><div class="yr">2017</div><h3>Ranked 1st among MSc students</h3><p>Mechatronics, Robotics and Automation Engineering, Qazvin Islamic Azad University</p></div>
+      <div class="award"><div class="yr">2017</div><h3>Honorary admission to PhD program</h3><p>Without the nationwide entrance exam, Qazvin Islamic Azad University</p></div>
+      <div class="award"><div class="yr">2014</div><h3>Ranked 2nd among BSc students</h3><p>Electrical Engineering, Islamic Azad University</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW MY WORK CONNECTS -->
+<section id="approach">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>How my work connects</h2>
+      <p>My research links the physical production system, its virtual counterpart, and the operator who learns to run it.</p>
+    </div>
+    <div class="grid g4 flow">
+      <div class="step"><h3>Model</h3><p>Build digital twins of manufacturing stations with Tecnomatix Process Simulate, Plant Simulation, and TIA Portal, linked to real PLC signals.</p></div>
+      <div class="step"><h3>Immerse</h3><p>Bring the twin into VR and XR so operators can explore and operate equipment safely before touching the real line.</p></div>
+      <div class="step"><h3>Guide</h3><p>Design human-centered, SOP-based guidance that explains each component and its role in the process.</p></div>
+      <div class="step"><h3>Evaluate</h3><p>Measure usability and learning so training outcomes can be assessed, not just delivered.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section class="alt" id="portfolio">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Portfolio</h2>
+      <p>Selected projects across digital twins, robotics, and product design.</p>
+    </div>
+    <div class="grid g3">
+      <article class="card">
+        <div class="media">SIF-400 VR TRAINING</div>
+        <div class="body">
+          <span class="tag">Digital Twin · VR</span>
+          <h3>VR Operator Training on the SIF-400 Line</h3>
+          <p>Immersive training environment driven by a digital twin of a smart manufacturing station, with PLC-linked behavior and audiovisual guidance.</p>
+          <div class="meta">SFU · 2024 - Present</div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="media">KUKA LBR iiwa</div>
+        <div class="body">
+          <span class="tag">Robotics · HRI</span>
+          <h3>Hand Guiding of the KUKA LBR iiwa 14 R820</h3>
+          <p>Implemented hand-guiding mode by recording robot positions so the collaborative robot learns poses and moves along them, using Sunrise Workbench and the SmartPAD.</p>
+          <div class="meta">SFU · Sep 2024 - Jan 2025</div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="media">BIO-INSPIRED MICROROBOT</div>
+        <div class="body">
+          <span class="tag">Research · Patent</span>
+          <h3>Bio-inspired Walking Microrobot</h3>
+          <p>A lightweight 8 cm hexapod inspired by cockroach locomotion, built with origami-inspired Smart Composite Microstructure fabrication and 2-DoF legs. Published in the Iranian Journal of Science and Technology, Transactions of Mechanical Engineering (Springer, 2019) and patented.</p>
+          <div class="meta">MSc thesis · 2015 - 2017</div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="media">TART ROBOTICS</div>
+        <div class="body">
+          <span class="tag">Product Design</span>
+          <h3>Educational Robotics Platforms</h3>
+          <p>Designed STEM robotics kits and tech toys, including main boards, sensors, I/O modules, and more than 15 plastic injection molds. Products are sold from East Asia to North America, including the AI-based, open-source Mulberry Tart.</p>
+          <div class="meta">Tart Robotics · 2017 - 2024</div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="media">ESP-32 IoT</div>
+        <div class="body">
+          <span class="tag">IoT · Embedded</span>
+          <h3>Home Appliance Control System</h3>
+          <p>Custom ESP-32 board with Wi-Fi and Bluetooth that connects home appliances and security to a mobile app for remote control.</p>
+          <div class="meta">2021</div>
+        </div>
+      </article>
+      <article class="card">
+        <div class="media">MOBILE ROBOT</div>
+        <div class="body">
+          <span class="tag">Control</span>
+          <h3>Fuzzy Logic Obstacle Avoidance</h3>
+          <p>Fuzzy logic controller on a differential mobile robot using ultrasonic sensing to recognize and avoid obstacles.</p>
+          <div class="meta">Qazvin Islamic Azad University · 2015 - 2016</div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- RESUME -->
+<section id="resume">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Resume</h2>
+      <p><a href="cv.pdf" target="_blank" rel="noopener">Download full CV (PDF)</a></p>
+    </div>
+    <div class="resume-cols">
+      <div>
+        <h3 class="col">Experience</h3>
+        <div class="timeline">
+          <div class="t-item"><div class="when">Sep 2024 - Present</div><h3>Graduate Research Assistant</h3><div class="org">Simon Fraser University, Vancouver</div><p>Digital Twin technologies in smart manufacturing for operator training.</p></div>
+          <div class="t-item"><div class="when">Jan 2025 - Jan 2026</div><h3>Teaching Assistant</h3><div class="org">Simon Fraser University</div><p>MSE 923 Smart Factory I, MSE 924 Smart Factory II, MSE 910 Industrial Internet of Things.</p></div>
+          <div class="t-item"><div class="when">Jul 2021 - Sep 2024</div><h3>Mechatronics Engineer</h3><div class="org">Tart Robotics, Toronto (Remote)</div><p>Design principles, engineering software, and rapid prototyping for educational robotics products.</p></div>
+          <div class="t-item"><div class="when">Jul 2017 - Sep 2024</div><h3>Product, PCB, and Mold Designer</h3><div class="org">Tart Robotics</div><p>Robot main boards, sensors, I/O modules and drivers; 15+ injection molds; product videos and teasers.</p></div>
+          <div class="t-item"><div class="when">Apr 2015 - May 2016</div><h3>Research Assistant</h3><div class="org">Robotics Engineering Center (Robome), University of Tehran</div><p>Origami-inspired paper robots using lightweight fabrication methods.</p></div>
+          <div class="t-item"><div class="when">Sep 2014 - Jul 2015</div><h3>Research Assistant</h3><div class="org">Mechatronics and Robotics Lab, Qazvin Islamic Azad University</div><p>Differential mobile robot for soft computing research.</p></div>
+        </div>
+      </div>
+      <div>
+        <h3 class="col">Education</h3>
+        <div class="timeline">
+          <div class="t-item"><div class="when">2024 - Present</div><h3>PhD, Mechatronic Systems Engineering</h3><div class="org">Simon Fraser University</div></div>
+          <div class="t-item"><div class="when">2014 - 2017</div><h3>MSc, Mechatronics, Robotics, and Automation Engineering</h3><div class="org">Qazvin Islamic Azad University</div><p>Thesis: Design, Simulation, and Control of a Bio-inspired Walking MicroRobot.</p></div>
+          <div class="t-item"><div class="when">2010 - 2014</div><h3>BSc, Electrical and Electronics Engineering</h3><div class="org">Islamic Azad University</div><p>Thesis: Design and Manufacture of an SMS-based Wireless Home Appliance Control System.</p></div>
+        </div>
+
+        <h3 class="col" style="margin-top:34px">Publications</h3>
+        <div class="pub">A Human-Centered UI/UX Design for Operator Training in a Manufacturing System via an Immersive Environment. <em>Proceedings of the Canadian Society for Mechanical Engineering (CSME), 2026.</em></div>
+        <div class="pub">Design, Prototyping and Performance Evaluation of a Bio-inspired Walking Microrobot. <em>Iranian Journal of Science and Technology, Transactions of Mechanical Engineering, Springer, 2019.</em></div>
+
+        <h3 class="col" style="margin-top:34px">Tools</h3>
+        <div class="chips">
+          <span class="chip">Tecnomatix Process Simulate</span>
+          <span class="chip">Plant Simulation</span>
+          <span class="chip">TIA Portal</span>
+          <span class="chip">PLCSIM Advanced</span>
+          <span class="chip">Siemens NX X</span>
+          <span class="chip">Unity</span>
+          <span class="chip">SteamVR</span>
+          <span class="chip">KUKA Sunrise</span>
+          <span class="chip">OPC UA</span>
+          <span class="chip">MQTT</span>
+          <span class="chip">PROFINET</span>
+          <span class="chip">Altium Designer</span>
+          <span class="chip">SolidWorks</span>
+          <span class="chip">Arduino / ESP-32</span>
+          <span class="chip">Python</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="wrap">
+    <h2>Get in touch</h2>
+    <p>Open to research collaborations and industry projects in digital twins, XR training, and smart manufacturing.</p>
+    <div class="btns">
+      <!-- Replace YOUR_EMAIL below with the email you want public, e.g. your SFU address -->
+      <a class="btn primary" href="mailto:YOUR_EMAIL">Email</a>
+      <a class="btn ghost" href="https://www.linkedin.com/in/h-amirhosseini/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn ghost" href="https://github.com/Hessameddin-Amirhosseini" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  © 2026 Hessameddin Amirhosseini · Vancouver, British Columbia
+</footer>
+
+</body>
+</html>
